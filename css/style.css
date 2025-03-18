@@ -133,7 +133,7 @@ h1 {
     /* Centra orizzontalmente */
     align-items: center;
     /* Centra verticalmente */
-    width: 100%;
+    /* width: 100%; */
     /* Occupa tutto lo spazio disponibile */
 }
 
@@ -224,18 +224,20 @@ h1 {
 
     .image-tiramisu {
         float: left;
-        margin-right: 10px;
-        /* Questo margine permette al testo di non sovrapporsi all'immagine */
+        margin-right: 15px;
+        /* Margine per separare l'immagine dal testo */
         margin-bottom: 10px;
-        /* Aggiungi un margine in basso per evitare che il testo tocchi l'immagine */
+        /* Margine in basso per evitare sovrapposizione con il testo */
     }
 
     .clearfix::after {
         content: "";
         display: table;
         clear: both;
-        /* Questo rimuove l'effetto di float e fa sì che il contenitore inglobi i suoi elementi flottanti */
+        /* Ripulisce il galleggiamento */
+
     }
+
 
 
 }
