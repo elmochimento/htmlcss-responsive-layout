@@ -33,9 +33,40 @@ ul {
 
 
 .container {
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+
+/* PAGE */
+
+
+body {
+    background-color: #f6f5f3;
+}
+
+
+h1 {
+
+    background-color: white;
+    color: orange;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.dessert {
+    color: #999999;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.tiramisu {
+    color: #4e3969;
+    margin-top: 10px;
+    margin-left: 30px;
 }
